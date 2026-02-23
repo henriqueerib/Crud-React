@@ -1,16 +1,22 @@
-# React + Vite
+# ⚛️ React CRUD Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um sistema de gerenciamento dinâmico desenvolvido em **React**, focado em performance e experiência do usuário. Este projeto demonstra as quatro operações básicas (CRUD) com manipulação de estado eficiente e uma interface moderna.
 
-Currently, two official plugins are available:
+## 🎯 Objetivo
+O projeto foi construído para colocar em prática conceitos fundamentais do ecossistema React, como hooks, componentização e consumo de dados, garantindo uma aplicação fluida e responsiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades
 
-## React Compiler
+- **Criação (Create):** Adição de novos registros com validação de campos.
+- **Listagem (Read):** Exibição dos dados em tempo real.
+- **Edição (Update):** Atualização rápida de informações existentes.
+- **Exclusão (Delete):** Remoção de registros com confirmação.
+- **Filtros:** Busca inteligente dentro da listagem (se houver).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias e Ferramentas
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** [React.js](https://reactjs.org/)
+- **Estilização:** [CSS3 / Styled Components / Tailwind] *(escolha o que usou)*
+- **Icons:** [Lucide React / FontAwesome]
+- **Gerenciamento de Estado:** [useState / useEffect]
+- **Build Tool:** [Vite / Create React App]
